@@ -12,6 +12,6 @@ public class Reverse {
 			revword = chr+revword;
 		}
 		System.out.println(revword);
-		System.out.println(word.charAt(word.length() / 2));
+		System.out.println("The middle character is "+word.charAt(word.length() / 2));
 	}
 }
