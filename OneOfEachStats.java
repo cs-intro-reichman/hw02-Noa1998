@@ -25,7 +25,7 @@ public class OneOfEachStats {
 		    int j = 0;
 
 		    while (i == 0 || j == 0) {
-		        double x = Math.random();
+		        double x = generator.nextDouble();
 
 	            if (x >= 0.5){
 			    i++;
