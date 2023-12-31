@@ -3,6 +3,17 @@
  */
 public class Divisors {
 	public static void main (String[] args) {
-		//// Put your code here
+		int x = Integer.parseInt(args[0]);
+		boolean divisor = true;
+
+		for (int count = 1; count <= x; count++){
+			divisor = (x % count == 0);
+
+		if (divisor){
+		 	System.out.println(count);	
+		}
+			
+
+		    }
+		}
 	}
-}
